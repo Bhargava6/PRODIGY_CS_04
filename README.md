@@ -1,1 +1,3 @@
-# PRODIGY_CS_04
+Simple Keylogger
+
+This Python program logs keystrokes to `activity_log.txt` using the `pynput` library to capture keyboard events and the `time` module for timestamps. The `record_keystroke` function writes each keystroke with a timestamp to the log file. The `start_logging` function initiates keylogging and prints a message indicating that logging has started. The main block runs `start_logging` to begin capturing keystrokes. To use, save the script as `keylogger.py` and run it. Ensure ethical use by obtaining explicit permission, as unauthorized keylogging is illegal and unethical. This tool is intended for educational or personal monitoring purposes only.
